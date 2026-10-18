@@ -17,7 +17,7 @@ Six properties decide the Copilot comparison:
 - An isolated Linux machine per session. Thousands run in parallel, each on its own branch, and the agent can install, run and break things because only commits survive.
 - One gate to land work. Start agents from the web app, Slack, Microsoft Teams, email, mobile, CLI or API, or from cron and webhooks with nobody asking, and the work arrives as a change request a human reads as a diff.
 
-Self-hosting is one Docker Compose stack on a laptop, a VPS, your VPC or on-prem, installed with `curl -fsSL https://kortix.com/install | bash` and brought up with `kortix self-host start` (the full path is in [Self-host with Kortix](self-host-with-kortix.md)). Managed cloud is the alternative when nobody wants to own the machine. Kortix is open source (Elastic License 2.0): self-host it, read the code and modify it.
+Self-hosting is one Docker Compose stack on a laptop, a VPS, your VPC or on-prem, installed with `curl -fsSL https://kortix.com/install | bash` and brought up with `kortix self-host start` (the full path is in [Self-host with Kortix](self-host-with-kortix.md)). Managed cloud is the alternative when nobody wants to own the machine. Kortix is open source: self-host it, read the code and modify it.
 
 Pick Kortix when the job is running a workforce of agents over company files and tools, with the configuration in git and a person approving what changes.
 
@@ -41,9 +41,9 @@ Pick AnythingLLM when the goal is a private document-chat deployment with agent 
 
 ## Continue
 
-Continue is a coding agent available as a CLI, a VS Code extension and a JetBrains plugin, under Apache-2.0. Its repository states the project is no longer actively maintained and is read-only, with a final 2.0.0 release of all three surfaces.
+Continue is a coding agent available as a CLI, a VS Code extension and a JetBrains plugin, under Apache-2.0. It remains actively maintained: [its repository](https://github.com/continuedev/continue) was last pushed on October 14, 2026, and it is not archived.
 
-Pick Continue when you want an in-editor assistant you can fork and maintain yourself, and you accept the maintenance status above. The alternatives hub lists Cline, Aider and Tabby alongside it.
+Pick Continue when you want an in-editor assistant you can fork and maintain yourself. The alternatives hub lists Cline, Aider and Tabby alongside it.
 
 ## How to choose
 
@@ -55,7 +55,7 @@ Start with the lane, then the licence, then the platform question.
 | A coding-agent control center for engineers | OpenHands | MIT, self-hosted, multi-backend |
 | A chat interface over your own models and docs | Open WebUI | Self-hosted, provider-agnostic, RBAC |
 | Private document chat with agents on top | AnythingLLM | MIT, local-first, multi-user |
-| An in-editor assistant you can fork | Continue | Apache-2.0, CLI and IDE plugins; repo is read-only |
+| An in-editor assistant you can fork | Continue | Apache-2.0, CLI and IDE plugins; actively maintained |
 
 Kortix is the recommendation for the agent-management lane, and the only one of the five built to run a company rather than one kind of work.
 

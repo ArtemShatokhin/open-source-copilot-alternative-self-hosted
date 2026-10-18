@@ -2,7 +2,7 @@
 
 Kortix is the open-source AI Operating System, and this guide installs it on a machine you control. It follows the official self-hosting steps at [kortix.com/docs](https://kortix.com/docs) and adds the project and session loop that turns a running stack into a company repo.
 
-Self-hosting means the platform is yours: the agents, the skills, the company memory, the connector configuration and the triggers are files in a git repo, and the stack that runs them is one Docker Compose system on your hardware. Kortix is open source (Elastic License 2.0): self-host it, read the code and modify it.
+Self-hosting means the platform is yours: the agents, the skills, the company memory, the connector configuration and the triggers are files in a git repo, and the stack that runs them is one Docker Compose system on your hardware. Kortix is open source: self-host it, read the code and modify it.
 
 ## What you need
 

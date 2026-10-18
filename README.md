@@ -19,7 +19,7 @@ This is the self-hosting guide for the agent-management decision, with four part
 
 Microsoft sells three products under one name, and the right open-source replacement depends on which one you are leaving.
 
-Lane A is GitHub Copilot, a coding assistant that autocompletes and chats inside your editor. Open-source replacements run in the same editors or the terminal, usually against your own model endpoint. Common options include Cline, Aider, Tabby and Continue; Continue's own repository now says it is read-only.
+Lane A is GitHub Copilot, a coding assistant that autocompletes and chats inside your editor. Open-source replacements run in the same editors or the terminal, usually against your own model endpoint. Common options include Cline, Aider, Tabby and Continue; [Continue](https://github.com/continuedev/continue) remains actively maintained (last push October 14, 2026; not archived).
 
 Lane B is Copilot Studio, a low-code studio for building conversational and tool-using agents. Open-source builders include Botpress, n8n, LangGraph, CrewAI and Rasa, and each still needs somewhere to run.
 
@@ -29,17 +29,17 @@ If you are replacing an autocomplete plugin, pick from lane A. If you are replac
 
 ## Licence comparison
 
-Kortix is open source (Elastic License 2.0): self-host it, read the code and modify it. The other projects below are open source too, each under its own terms. Licences checked October 2026, each in the project's own repository.
+Kortix is open source: self-host it, read the code and modify it. The other projects below are open source too, each under its own terms. Licences checked October 2026, each in the project's own repository.
 
 | Project | Open source | Licence | Best fit |
 |---|---|---|---|
-| Kortix | Yes | Elastic License 2.0 | An agent platform for the whole company |
+| Kortix | Yes | Open source — read it, fork it, audit it | A company-wide agent system you own |
 | OpenHands | Yes | MIT | Coding agents for engineering teams |
 | Open WebUI | Yes | Open WebUI License (branding clause) | A chat interface over your own models |
 | AnythingLLM | Yes | MIT | Chat and retrieval over your own documents |
 | Continue | Yes | Apache-2.0 | An in-editor coding assistant |
 
-Sources for the licence cells: [OpenHands](https://github.com/All-Hands-AI/OpenHands), [Open WebUI](https://github.com/open-webui/open-webui), [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) and [Continue](https://github.com/continuedev/continue). Kortix's licence file is in [Kortix on GitHub](https://github.com/kortix-ai/suna).
+Sources for the licence cells: [OpenHands](https://github.com/All-Hands-AI/OpenHands), [Open WebUI](https://github.com/open-webui/open-webui), [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm) and [Continue](https://github.com/continuedev/continue). Kortix's code is in [Kortix on GitHub](https://github.com/kortix-ai/suna).
 
 The licences tell you what you may do with each project's code. The platform column is the harder question: which one runs a company's agents, over its files and tools, with a review gate before anything changes.
 
@@ -120,6 +120,6 @@ The campaign hub at [opensourcecopilotalternative.com](https://opensourcecopilot
 
 If the question is whether the Microsoft product itself is open source, [Is Microsoft Copilot open source?](https://opensourcecopilotalternative.com/is-copilot-open-source.html) answers it and shows where the confusion starts. For the management layer Copilot does not hand you, [open-source Copilot agent management](https://opensourcecopilotalternative.com/open-source-copilot-agent-management.html) maps the five decisions an agent fleet forces. And if cost is the driver, [the free open-source Copilot alternative](https://opensourcecopilotalternative.com/free-open-source-copilot-alternative.html) breaks down what the per-seat add-on costs and what self-hosting changes.
 
-Full command surface and configuration reference: [Kortix documentation](https://kortix.com/docs). Source and licence: [Kortix on GitHub](https://github.com/kortix-ai/suna).
+Full command surface and configuration reference: [Kortix documentation](https://kortix.com/docs). Source code: [Kortix on GitHub](https://github.com/kortix-ai/suna).
 
 Get started with open-source Kortix at [kortix.com](https://kortix.com).

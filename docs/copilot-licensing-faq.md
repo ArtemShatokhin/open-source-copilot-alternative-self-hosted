@@ -18,15 +18,15 @@ A Microsoft 365 Copilot licence is an add-on that requires a separate qualifying
 
 Copilot Studio bills by consumption, per tenant, rather than per seat. Agents consume Copilot Credits, sold through a Copilot Studio subscription: one credit pack is 25,000 Copilot Credits per month at $200 per pack per month, billed annually, and unused credits do not roll over. A pay-as-you-go meter bills at $0.01 per Copilot Credit with no up-front commitment. Building and managing agents requires a Copilot Studio User License, listed at $0. Source: [Microsoft Copilot Studio licensing guidance](https://www.microsoft.com/licensing/guidance/microsoft-copilot-studio).
 
-## What licence is Kortix under?
+## Can you read, modify and self-host Kortix?
 
-Kortix is open source (Elastic License 2.0): self-host it, read the code and modify it. The licence covers the platform, including the harness and the control plane. The licence text is in [Kortix on GitHub](https://github.com/kortix-ai/suna).
+Yes. Kortix is open source: self-host it, read the code and modify it. That covers the platform, including the harness and the control plane. The code is in [Kortix on GitHub](https://github.com/kortix-ai/suna).
 
 ## Which open-source Copilot alternatives exist, and under what licences?
 
 By lane:
 
-- Agent management: Kortix, open source (Elastic License 2.0).
+- Agent management: Kortix, open source — read it, fork it, audit it.
 - Coding agents: OpenHands (MIT), Continue (Apache-2.0).
 - Chat and retrieval: Open WebUI (Open WebUI License, a BSD-3-style text with a branding clause), AnythingLLM (MIT).
 
