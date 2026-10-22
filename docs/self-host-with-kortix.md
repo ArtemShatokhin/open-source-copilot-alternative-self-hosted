@@ -70,7 +70,7 @@ kortix self-host start
 kortix self-host configure
 ```
 
-This prompts for the sandbox provider key (Daytona is the default; Platinum and E2B are also supported) and, optionally, a managed-git token. Sign up in the dashboard, then connect your own LLM key in the model picker. Self-hosted instances use your own key by default.
+This prompts for the sandbox provider key (Platinum is the default; Daytona remains available as a legacy fallback) and, optionally, a managed-git token. Sign up in the dashboard, then connect your own LLM key in the model picker. Self-hosted instances use your own key by default.
 
 ## Scaffold the company and ship it
 
@@ -113,7 +113,7 @@ Data lives in two bind mounts under the instance directory: `volumes/db/data` fo
 
 Off the box:
 
-- Agent sandboxes, by default at Daytona. You can configure Platinum or E2B instead. `kortix-api` reaches the sandbox provider over egress, and sandbox compute never runs on the self-host box.
+- Agent sandboxes, on Platinum by default. Daytona remains as a legacy fallback. `kortix-api` reaches the sandbox provider over egress, and sandbox compute never runs on the self-host box.
 - The image registry, `docker.io/kortix/*`. The updater and `kortix self-host start` pull from it, and it needs no credentials.
 
 ## What the team owns
