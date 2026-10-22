@@ -72,7 +72,7 @@ The install is one command for the CLI, then Kortix brings up its own Docker Com
    kortix self-host configure
    ```
 
-   This prompts for the sandbox provider key (Daytona is the default; Platinum and E2B are also supported) and, optionally, a managed-git token.
+   This prompts for the sandbox provider key (Platinum is the default; Daytona remains available as a legacy fallback) and, optionally, a managed-git token.
 
 5. Scaffold the company repo and ship it:
 
